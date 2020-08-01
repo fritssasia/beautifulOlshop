@@ -3,10 +3,20 @@ body {
 }
 
 /* navbar */
-.navbar-active {
-    background-color: green;
+.navbar {
+    background-color: #ffecde;
 }
 
+.navbar-brand {
+    color: #e67249 !important;
+}
+
+.navbar-nav a {
+    color: #e67249 !important;
+}
+
+
+/* jumbotron */
 .jumbotron {
     background-color: #ffecde;
 }
@@ -20,7 +30,7 @@ body {
 }
 
 .jumbotron-text p {
-    color: #fbb448;
+    color: #6bc2c2;
     font-weight: 500;
     font-size: 25px;
 }
@@ -29,7 +39,6 @@ body {
     font-family: 'Nunito';
     font-weight: 700;
     font-size: 45px;
-    /* color: #b0c2c2; */
     color: #6bc2c2;
 }
 
@@ -37,7 +46,17 @@ body {
     color: #FDA283;
 }
 
+.btn-shop-now {
+    margin-top: 15px;
+    background-color: #fbb448;
+    color: white;
+}
+
+.btn-shop-now:hover {
+    color: white;
+}
+
 .jumbotron-image {
     width: auto;
-    height: 600px;
+    height: 535px;
 }
