@@ -26,7 +26,7 @@ body {
 }
 
 .jumbotron-text-wrapper {
-    padding-top: 175px;
+    padding-top: 165px;
 }
 
 .jumbotron-text p {
@@ -58,5 +58,17 @@ body {
 
 .jumbotron-image {
     width: auto;
-    height: 535px;
+    height: 525px;
+}
+
+/* info panel */
+.info-panel-card {
+    /* border: none; */
+}
+
+/* section next */
+.next {
+    height: 500px;
+    margin-top: -35px;
+    background-color: #eff3ff;
 }
