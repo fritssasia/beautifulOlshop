@@ -1,28 +1,28 @@
 body {
     font-family: 'Nunito';
+    background-color: #eff3ff;
 }
 
 /* navbar */
 .navbar {
-    background-color: #ffecde;
+    /* background-color: #ffecde; */
+    background-color: #fda283;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
 }
 
 .navbar-brand {
-    color: #e67249 !important;
+    color: white !important;
 }
-
-.navbar-nav a {
-    color: #e67249 !important;
-}
-
 
 /* jumbotron */
 .jumbotron {
     background-color: #ffecde;
+    height: 675px;
 }
 
 .jumbotron-content-wrapper {
-    padding-top: 45px;
+    padding-top: 85px;
 }
 
 .jumbotron-text-wrapper {
@@ -62,13 +62,27 @@ body {
 }
 
 /* info panel */
-.info-panel-card {
-    /* border: none; */
+.info-panel {
+    margin-top: -55px;
 }
+
+.info-panel-card {
+    border: none;
+    border-radius: 10px;
+}
+
+.info-panel-card p {
+    color: #FDA283;
+}
+
+.info-panel-icon {
+    color: #FDA283;
+    font-size: 40px;
+}
+
 
 /* section next */
 .next {
-    height: 500px;
-    margin-top: -35px;
+    height: 80px;
     background-color: #eff3ff;
 }
