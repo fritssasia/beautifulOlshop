@@ -1,0 +1,43 @@
+body {
+    font-family: 'Nunito';
+}
+
+/* navbar */
+.navbar-active {
+    background-color: green;
+}
+
+.jumbotron {
+    background-color: #ffecde;
+}
+
+.jumbotron-content-wrapper {
+    padding-top: 45px;
+}
+
+.jumbotron-text-wrapper {
+    padding-top: 175px;
+}
+
+.jumbotron-text p {
+    color: #fbb448;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.heading-jumbotron {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 45px;
+    /* color: #b0c2c2; */
+    color: #6bc2c2;
+}
+
+.text-beautiful {
+    color: #FDA283;
+}
+
+.jumbotron-image {
+    width: auto;
+    height: 600px;
+}
