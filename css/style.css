@@ -21,6 +21,11 @@ body {
     height: 675px;
 }
 
+.jumbotron-image {
+    width: auto;
+    height: 500px;
+}
+
 .jumbotron-content-wrapper {
     padding-top: 85px;
 }
@@ -56,10 +61,20 @@ body {
     color: white;
 }
 
-.jumbotron-image {
-    width: auto;
-    height: 525px;
+.jumbotron-btn-social-media-wrapper {
+    padding-top: 95px;
 }
+
+.jumbotron-btn-contact {
+    color: tomato;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.jumbotron-btn-contact:hover {
+    color: tomato;
+}
+
 
 /* info panel */
 .info-panel {
