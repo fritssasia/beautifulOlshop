@@ -6,13 +6,17 @@ body {
 /* navbar */
 .navbar {
     /* background-color: #ffecde; */
-    background-color: #fda283;
+    background-color: #ffecde;
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
 }
 
+.nav-link {
+    color: #e75824 !important;
+}
+
 .navbar-brand {
-    color: white !important;
+    color: #e75824 !important;
 }
 
 /* jumbotron */
