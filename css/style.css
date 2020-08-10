@@ -11,11 +11,11 @@ body {
 }
 
 .nav-link {
-    color: #f76b38 !important;
+    color: #fa825a !important;
 }
 
 .navbar-brand {
-    color: #e75824 !important;
+    color: #fa825a !important;
 }
 
 /* jumbotron */
@@ -96,7 +96,7 @@ body {
 
 .info-panel-icon {
     color: #FDA283;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 
