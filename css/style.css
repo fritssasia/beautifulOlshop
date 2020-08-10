@@ -5,7 +5,6 @@ body {
 
 /* navbar */
 .navbar {
-    /* background-color: #ffecde; */
     background-color: #ffecde;
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -38,16 +37,17 @@ body {
     padding-top: 165px;
 }
 
-.jumbotron-text p {
-    color: #6bc2c2;
-    font-weight: 500;
-    font-size: 25px;
+.jumbotron-border-bottom {
+    border-left: 5px solid #FDA283;
+}
+
+.text-make-your-day {
+    padding-left: 5px;
 }
 
 .heading-jumbotron {
-    font-family: 'Nunito';
-    font-weight: 700;
-    font-size: 45px;
+    font-family: 'Montserrat';
+    font-size: 40px;
     color: #6bc2c2;
 }
 
@@ -70,13 +70,13 @@ body {
 }
 
 .jumbotron-btn-contact {
-    color: tomato;
+    color: #FDA283;
     font-size: 20px;
     padding-right: 10px;
 }
 
 .jumbotron-btn-contact:hover {
-    color: tomato;
+    color: salmon;
 }
 
 
