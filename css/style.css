@@ -6,16 +6,55 @@ body {
 /* navbar */
 .navbar {
     background-color: #ffecde;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-}
-
-.nav-link {
-    color: #fa825a !important;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
 }
 
 .navbar-brand {
+    font-family: 'Montserrat';
+    color: salmon !important;
+}
+
+.nav-link {
+    color: salmon !important;
+    margin-left: 15px;
+}
+
+.nav-link:hover {
+    color: tomato !important;
+}
+
+.dropdown-menu {
+    background-color: #ffecde;
+    border: 1px solid #ffa080;
+    border-top-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+}
+
+.dropdown-menu li a {
     color: #fa825a !important;
+}
+
+.dropdown-menu li a:hover {
+    color: #fa825a !important;
+    background-color: #fce3dc;
+}
+
+.nav-btn {
+    margin-left: 15px;
+}
+
+.btn-nav-login-and-register {
+    background-color: #FDA283;
+    color: white !important;
+    width: 95px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.btn-nav-login-and-register:hover {
+    background-color: salmon;
+    color: white;
 }
 
 /* jumbotron */
@@ -70,13 +109,13 @@ body {
 }
 
 .jumbotron-btn-contact {
-    color: #FDA283;
-    font-size: 20px;
+    color: salmon;
+    font-size: 22px;
     padding-right: 10px;
 }
 
 .jumbotron-btn-contact:hover {
-    color: salmon;
+    color: #FDA283;
 }
 
 
@@ -87,21 +126,30 @@ body {
 
 .info-panel-card {
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 10px #FDA283;
 }
 
-.info-panel-card p {
-    color: #FDA283;
+.info-panel-content-wrapper {
+    padding-top: 15px;
 }
 
 .info-panel-icon {
-    color: #FDA283;
+    color: salmon;
     font-size: 35px;
+}
+
+.info-panel-icon:hover {
+    color: #FDA283;
+}
+
+.info-panel-card p {
+    color: salmon;
 }
 
 
 /* section next */
 .next {
-    height: 80px;
+    height: 95px;
     background-color: #eff3ff;
 }
