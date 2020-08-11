@@ -1,7 +1,17 @@
 /* extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+
+    /* jumbotron */
+    .jumbotron {
+        height: 685px;
+    }
+
     .jumbotron-image {
         height: 315px;
+    }
+
+    .jumbotron-text-wrapper {
+        padding-top: 40px;
     }
 
     .heading-jumbotron {
@@ -9,7 +19,26 @@
     }
 
     .jumbotron-btn-social-media-wrapper {
-        padding-top: 25px;
+        padding-top: 35px;
+    }
+
+
+    /* info panel */
+    .info-panel {
+        margin-top: 50px;
+    }
+
+    .info-panel-content-wrapper {
+        padding-top: 15px;
+    }
+
+    .info-panel-heading {
+        font-family: 'Montserrat';
+        color: salmon;
+    }
+
+    .info-panel-icon {
+        font-size: 30px;
     }
 }
 
@@ -24,6 +53,12 @@
 
 /* extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
+    /* jumbotron */
+    .jumbotron {
+        height: 675px;
+    }
+
     .jumbotron-image {
         height: 500px;
     }
@@ -38,5 +73,19 @@
 
     .jumbotron-btn-social-media-wrapper {
         padding-top: 95px;
+    }
+
+
+    /* info panel */
+    .info-panel {
+        margin-top: -65px;
+    }
+
+    .info-panel-heading {
+        display: none;
+    }
+
+    .info-panel-icon {
+        font-size: 35px;
     }
 }
