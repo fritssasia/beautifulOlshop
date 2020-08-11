@@ -98,9 +98,11 @@ body {
     margin-top: 15px;
     background-color: #fbb448;
     color: white;
+    box-shadow: 0px 0px 10px #fbb448;
 }
 
 .btn-shop-now:hover {
+    box-shadow: 0px 0px 25px #fbb448;
     color: white;
 }
 
@@ -127,7 +129,12 @@ body {
 .info-panel-card {
     border: none;
     border-radius: 15px;
-    box-shadow: 0px 2px 10px #FDA283;
+    box-shadow: 0px 1px 15px #FDA283;
+}
+
+.info-panel-card:hover {
+    transition: all 2s;
+    box-shadow: 0px 1px 25px #FDA283;
 }
 
 .info-panel-content-wrapper {
