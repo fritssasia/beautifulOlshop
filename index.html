@@ -38,9 +38,9 @@
     <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
+            <div class="modal-content modal-login-content">
                 <div class="modal-header text-center">
-                    <h4 class="modal-title w-100 font-weight-bold">Login</h4>
+                    <h4 class="modal-login-title w-100 font-weight-bold">Login</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -61,13 +61,13 @@
                         <label class="form-check-label" for="exampleCheck1">Remember me</label>
                     </div>
 
-                    <a href="" class="btn-forgot-password">Forgot password?</a>
+                    <p class="forgot-pass-or-not-have-account"><a href="" class="btn-forgot-password">Forgot username/password?</a> or <a href="" class="btn-not-have-account">Don't have an account?</a></p>
 
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-login">Login</button>
+                    </div>
+                </div>
 
-                </div>
-                <div class="modal-footer d-flex justify-content-center">
-                    <button class="btn btn-login">Login</button>
-                </div>
             </div>
         </div>
     </div>
@@ -77,9 +77,9 @@
     <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
+            <div class="modal-content modal-register-content">
                 <div class="modal-header text-center">
-                    <h4 class="modal-title w-100 font-weight-bold">Register</h4>
+                    <h4 class="modal-register-title w-100 font-weight-bold">Register</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -87,25 +87,27 @@
                 <div class="modal-body mx-3">
 
                     <div class="md-form mb-3">
+                        <input type="text" placeholder="Name" id="defaultForm-email" class="form-control validate">
+                    </div>
+
+                    <div class="md-form mb-3">
+                        <input type="text" placeholder="Username" id="defaultForm-email" class="form-control validate">
+                    </div>
+
+                    <div class="md-form mb-3">
                         <input type="email" placeholder="Email" id="defaultForm-email" class="form-control validate">
                     </div>
 
                     <div class="md-form mb-4">
-                        <input type="password" placeholder="Password" id="defaultForm-pass"
+                        <input type="password" placeholder="Enter your password" id="defaultForm-pass"
                             class="form-control validate">
                     </div>
 
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                    <p class="already-have-account">Already have an account? <a href="#loginModal" data-toggle="modal" class="btn-already-have-account-modal">Login</a></p>
+
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-login">Submit</button>
                     </div>
-
-                    <a href="" class="btn-forgot-password">Forgot password?</a>
-
-
-                </div>
-                <div class="modal-footer d-flex justify-content-center">
-                    <button class="btn btn-login">Login</button>
                 </div>
             </div>
         </div>
@@ -153,11 +155,6 @@
                         <a href="#registerModal" data-toggle="modal"
                             class="nav-btn btn btn-nav-login-and-register btn-navbar-register">Register</a>
                     </li>
-                    <div class="text-center">
-                        <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal"
-                            data-target="#modalLoginForm">Launch
-                            Modal Login Form</a>
-                    </div>
                 </ul>
             </div>
         </div>

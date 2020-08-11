@@ -4,6 +4,14 @@ body {
 }
 
 /* modal */
+.modal-login-content {
+    background-color: #ffecde;
+}
+
+.modal-login-title {
+    color: tomato;
+}
+
 .btn-login {
     width: 85px;
     background-color: #fbb448;
@@ -24,6 +32,32 @@ body {
 .btn-forgot-password:hover {
     color: #55b4b4;
     text-decoration: none;
+}
+
+.forgot-pass-or-not-have-account {
+    color: tomato;
+}
+
+.btn-not-have-account {
+    text-decoration: none;
+    color: #70d3d3 !important;
+}
+
+.modal-register-content {
+    background-color: #ffecde;
+}
+
+.modal-register-title {
+    color: tomato;
+}
+
+.already-have-account {
+    color: tomato;
+}
+
+.btn-already-have-account-modal {
+    text-decoration: none;
+    color: #70d3d3 !important;
 }
 
 /* navbar */
@@ -160,6 +194,6 @@ body {
 
 /* section next */
 .next {
-    height: 900px;
+    height: 95px;
     background-color: #eff3ff;
 }
