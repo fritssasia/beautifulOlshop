@@ -3,6 +3,29 @@ body {
     background-color: #eff3ff;
 }
 
+/* modal */
+.btn-login {
+    width: 85px;
+    background-color: #fbb448;
+    color: white;
+    box-shadow: 0px 0px 10px #fbb448;
+}
+
+.btn-login:hover {
+    box-shadow: 0px 0px 25px #fbb448;
+    color: white;
+}
+
+.btn-forgot-password {
+    color: #70d3d3;
+    text-decoration: none;
+}
+
+.btn-forgot-password:hover {
+    color: #55b4b4;
+    text-decoration: none;
+}
+
 /* navbar */
 .navbar {
     background-color: #ffecde;
@@ -137,6 +160,6 @@ body {
 
 /* section next */
 .next {
-    height: 95px;
+    height: 900px;
     background-color: #eff3ff;
 }
