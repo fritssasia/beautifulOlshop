@@ -1,5 +1,17 @@
 /* extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    .jumbotron-image {
+        height: 315px;
+    }
+
+    .heading-jumbotron {
+        font-size: 25px;
+    }
+
+    .jumbotron-btn-social-media-wrapper {
+        padding-top: 25px;
+    }
+}
 
 /* small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {}
@@ -11,4 +23,20 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /* extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .jumbotron-image {
+        height: 500px;
+    }
+
+    .jumbotron-text-wrapper {
+        padding-top: 165px;
+    }
+
+    .heading-jumbotron {
+        font-size: 40px;
+    }
+
+    .jumbotron-btn-social-media-wrapper {
+        padding-top: 95px;
+    }
+}

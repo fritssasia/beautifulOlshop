@@ -65,29 +65,23 @@ body {
 
 .jumbotron-image {
     width: auto;
-    height: 500px;
 }
 
 .jumbotron-content-wrapper {
     padding-top: 85px;
 }
 
-.jumbotron-text-wrapper {
-    padding-top: 165px;
-}
-
 .jumbotron-border-bottom {
     border-left: 5px solid #FDA283;
 }
 
-.text-make-your-day {
-    padding-left: 5px;
-}
-
 .heading-jumbotron {
     font-family: 'Montserrat';
-    font-size: 40px;
     color: #6bc2c2;
+}
+
+.text-make-your-day {
+    padding-left: 5px;
 }
 
 .text-beautiful {
@@ -106,10 +100,6 @@ body {
     color: white;
 }
 
-.jumbotron-btn-social-media-wrapper {
-    padding-top: 95px;
-}
-
 .jumbotron-btn-contact {
     color: salmon;
     font-size: 22px;
@@ -123,18 +113,18 @@ body {
 
 /* info panel */
 .info-panel {
-    margin-top: -55px;
+    margin-top: -65px;
 }
 
 .info-panel-card {
     border: none;
     border-radius: 15px;
-    box-shadow: 0px 1px 15px #FDA283;
+    box-shadow: 0px 1px 20px #FDA283;
 }
 
 .info-panel-card:hover {
-    transition: all 2s;
-    box-shadow: 0px 1px 25px #FDA283;
+    transition: all 0.5s;
+    box-shadow: 0px 1px 35px #FDA283;
 }
 
 .info-panel-content-wrapper {
